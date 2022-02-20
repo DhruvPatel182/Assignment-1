@@ -1,0 +1,54 @@
+@page
+@model HealthRazor.Pages_Health.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Health</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Health.DiseaseName" class="control-label"></label>
+                <input asp-for="Health.DiseaseName" class="form-control" />
+                <span asp-validation-for="Health.DiseaseName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Health.Cause" class="control-label"></label>
+                <input asp-for="Health.Cause" class="form-control" />
+                <span asp-validation-for="Health.Cause" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Health.Year" class="control-label"></label>
+                <input asp-for="Health.Year" class="form-control" />
+                <span asp-validation-for="Health.Year" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Health.Precaution" class="control-label"></label>
+                <input asp-for="Health.Precaution" class="form-control" />
+                <span asp-validation-for="Health.Precaution" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Health.HealthIndex" class="control-label"></label>
+                <input asp-for="Health.HealthIndex" class="form-control" />
+                <span asp-validation-for="Health.HealthIndex" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

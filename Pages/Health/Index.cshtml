@@ -1,0 +1,60 @@
+@page
+@model HealthRazor.Pages_Health.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Health[0].DiseaseName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Health[0].Cause)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Health[0].Year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Health[0].Precaution)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Health[0].HealthIndex)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Health) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiseaseName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cause)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precaution)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HealthIndex)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
