@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1178340421,
-        "Kind": "Components.Component",
-        "Name": "FirstNameLastNameGroceryApp.Pages.Counter",
-        "AssemblyName": "FirstNameLastNameGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstNameLastNameGroceryApp.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": -2058738108,
-        "Kind": "Components.Component",
-        "Name": "FirstNameLastNameGroceryApp.Pages.Counter",
-        "AssemblyName": "FirstNameLastNameGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FirstNameLastNameGroceryApp.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstNameLastNameGroceryApp.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1231807197,
         "Kind": "Components.Component",
         "Name": "FirstNameLastNameGroceryApp.Pages.FetchData",
@@ -74,6 +41,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "FirstNameLastNameGroceryApp.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1178340421,
+        "Kind": "Components.Component",
+        "Name": "FirstNameLastNameGroceryApp.Pages.Counter",
+        "AssemblyName": "FirstNameLastNameGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstNameLastNameGroceryApp.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -2058738108,
+        "Kind": "Components.Component",
+        "Name": "FirstNameLastNameGroceryApp.Pages.Counter",
+        "AssemblyName": "FirstNameLastNameGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FirstNameLastNameGroceryApp.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstNameLastNameGroceryApp.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -111,88 +111,68 @@
         }
       },
       {
-        "HashCode": 1808155828,
+        "HashCode": 1737365401,
         "Kind": "Components.Component",
-        "Name": "FirstNameLastNameGroceryApp.App",
+        "Name": "FirstNameLastNameGroceryApp.Pages.FoodItem",
         "AssemblyName": "FirstNameLastNameGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "FoodItem"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstNameLastNameGroceryApp.App"
+          "Common.TypeName": "FirstNameLastNameGroceryApp.Pages.FoodItem"
         }
       },
       {
-        "HashCode": -66952144,
+        "HashCode": -1463131570,
         "Kind": "Components.Component",
-        "Name": "FirstNameLastNameGroceryApp.App",
+        "Name": "FirstNameLastNameGroceryApp.Pages.FoodItem",
         "AssemblyName": "FirstNameLastNameGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FirstNameLastNameGroceryApp.App"
+            "TagName": "FirstNameLastNameGroceryApp.Pages.FoodItem"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstNameLastNameGroceryApp.App",
+          "Common.TypeName": "FirstNameLastNameGroceryApp.Pages.FoodItem",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 1457963064,
+        "HashCode": -1453650128,
         "Kind": "Components.Component",
-        "Name": "FirstNameLastNameGroceryApp.Shared.SurveyPrompt",
+        "Name": "FirstNameLastNameGroceryApp.Pages.GroceryStore",
         "AssemblyName": "FirstNameLastNameGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "GroceryStore"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstNameLastNameGroceryApp.Shared.SurveyPrompt"
+          "Common.TypeName": "FirstNameLastNameGroceryApp.Pages.GroceryStore"
         }
       },
       {
-        "HashCode": 2115773751,
+        "HashCode": 749645238,
         "Kind": "Components.Component",
-        "Name": "FirstNameLastNameGroceryApp.Shared.SurveyPrompt",
+        "Name": "FirstNameLastNameGroceryApp.Pages.GroceryStore",
         "AssemblyName": "FirstNameLastNameGroceryApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FirstNameLastNameGroceryApp.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "FirstNameLastNameGroceryApp.Pages.GroceryStore"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "FirstNameLastNameGroceryApp.Shared.SurveyPrompt",
+          "Common.TypeName": "FirstNameLastNameGroceryApp.Pages.GroceryStore",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -293,6 +273,59 @@
         }
       },
       {
+        "HashCode": 1457963064,
+        "Kind": "Components.Component",
+        "Name": "FirstNameLastNameGroceryApp.Shared.SurveyPrompt",
+        "AssemblyName": "FirstNameLastNameGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstNameLastNameGroceryApp.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 2115773751,
+        "Kind": "Components.Component",
+        "Name": "FirstNameLastNameGroceryApp.Shared.SurveyPrompt",
+        "AssemblyName": "FirstNameLastNameGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FirstNameLastNameGroceryApp.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstNameLastNameGroceryApp.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1211462944,
         "Kind": "Components.Component",
         "Name": "FirstNameLastNameGroceryApp.Shared.NavMenu",
@@ -322,6 +355,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "FirstNameLastNameGroceryApp.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1808155828,
+        "Kind": "Components.Component",
+        "Name": "FirstNameLastNameGroceryApp.App",
+        "AssemblyName": "FirstNameLastNameGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstNameLastNameGroceryApp.App"
+        }
+      },
+      {
+        "HashCode": -66952144,
+        "Kind": "Components.Component",
+        "Name": "FirstNameLastNameGroceryApp.App",
+        "AssemblyName": "FirstNameLastNameGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FirstNameLastNameGroceryApp.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "FirstNameLastNameGroceryApp.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15953,6 +16019,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "d:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-1\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp\\Pages\\FoodItem.razor",
+      "TargetPath": "Pages\\FoodItem.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "d:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-1\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
       "FileKind": "component"
@@ -15965,6 +16036,11 @@
     {
       "FilePath": "d:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-1\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-1\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp\\Pages\\GroceryStore.razor",
+      "TargetPath": "Pages\\GroceryStore.razor",
       "FileKind": "component"
     },
     {

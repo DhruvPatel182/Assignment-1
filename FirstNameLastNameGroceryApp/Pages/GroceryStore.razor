@@ -1,0 +1,35 @@
+﻿@page "/GroceryStore"
+
+<h1>Grocery Items</h1>
+
+<ul>@foreach (var item in GroceryList)
+{
+    
+    <li>@item.ListOfFoodItem</li>
+}</ul>
+<ul><li>Meat
+      <ul>
+      <input type="button" placeholder="Increase"><li>Chicken Wings</li><input type="button" placeholder="Decrease">
+        <li>Chicken Drumsticks</li>
+        <li>CHicken Breast</li>
+      </ul>
+    </li>    
+    <li>Vegetables
+        <ul>
+            <li>Tomatoes</li>
+            <li>Onions</li>
+            <li>Potatoes</li>
+        </ul>
+    </li>
+    <li>Essentials
+        <ul>
+            <li>Toilet Paper</li>
+            <li>Body Wash</li>
+            <li>Infactant liquid</li>
+        </ul>
+    </li>
+</ul>
+@code {
+
+private List<GroceryIsle> GroceryList = new();   
+ }

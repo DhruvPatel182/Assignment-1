@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-2\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp.csproj": {}
+    "D:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-1\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp.csproj": {}
   },
   "projects": {
-    "D:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-2\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp.csproj": {
+    "D:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-1\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-2\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp.csproj",
+        "projectUniqueName": "D:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-1\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp.csproj",
         "projectName": "FirstNameLastNameGroceryApp",
-        "projectPath": "D:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-2\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp.csproj",
+        "projectPath": "D:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-1\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp.csproj",
         "packagesPath": "C:\\Users\\dp325\\.nuget\\packages\\",
-        "outputPath": "D:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-2\\FirstNameLastNameGroceryApp\\obj\\",
+        "outputPath": "D:\\St Clair\\SEM 3\\Introduction to ASP.NET sem 3\\Assignment-1\\FirstNameLastNameGroceryApp\\FirstNameLastNameGroceryApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dp325\\AppData\\Roaming\\NuGet\\NuGet.Config"
